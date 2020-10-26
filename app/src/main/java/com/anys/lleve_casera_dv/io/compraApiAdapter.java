@@ -18,8 +18,9 @@ public class compraApiAdapter {
         // Asociamos el interceptor a las peticiones
         OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
         httpClient.addInterceptor(logging);
-
-        String baseUrl = "https://smipmec.000webhostapp.com/";
+    //
+        // https://smipmec.000webhostapp.com/ - Base
+        String baseUrl = "https://llevecaseraappweb.000webhostapp.com/";
 
         if (API_SERVICE == null) {
             Retrofit retrofit = new Retrofit.Builder()

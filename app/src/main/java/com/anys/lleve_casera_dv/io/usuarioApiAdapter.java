@@ -19,7 +19,7 @@ public class usuarioApiAdapter {
         OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
         httpClient.addInterceptor(logging);
 
-        String baseUrl = "https://smipmec.000webhostapp.com/";
+        String baseUrl = "https://llevecaseraappweb.000webhostapp.com/";
 
         if (API_SERVICE == null) {
             Retrofit retrofit = new Retrofit.Builder()
