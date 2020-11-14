@@ -63,6 +63,31 @@
         android:name="com.anys.lleve_casera_dv.AgenciaSelectFragment"
         android:label="fragment_agencia_select"
         tools:layout="@layout/fragment_agencia_select" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.anys.lleve_casera_dv.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.anys.lleve_casera_dv.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <fragment
+        android:id="@+id/loginMercadoActivity"
+        android:name="com.anys.lleve_casera_dv.loginMercadoActivity"
+        android:label="fragment_login_mercado_activity"
+        tools:layout="@layout/fragment_login_mercado_activity" />
+    <activity
+        android:id="@+id/singInActivity"
+        android:name="com.anys.lleve_casera_dv.SingInActivity"
+        android:label="activity_sing_in"
+        tools:layout="@layout/activity_sing_in" />
+    <fragment
+        android:id="@+id/singInActivity_vendedor"
+        android:name="com.anys.lleve_casera_dv.singInActivity_vendedor"
+        android:label="fragment_sing_in_activity_vendedor"
+        tools:layout="@layout/fragment_sing_in_activity_vendedor" />
 
 
 </navigation>

@@ -17,17 +17,17 @@
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="match_parent"
-        android:layout_marginTop="70dp">
+        android:layout_marginTop="30dp">
 
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="60dp"
             android:layout_marginBottom="25dp"
             android:layout_gravity="center"
             android:background="@drawable/circle_image"
-            android:padding="20dp"
-            android:src="@drawable/logo"
+            android:padding="5dp"
+            android:src="@drawable/logo_vendedor"
             android:contentDescription="@string/logo" />
 
         <TextView
@@ -40,8 +40,8 @@
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textColor="#FFFFFC"
-            android:textSize="18sp"
-            android:text="@string/login" />
+            android:textSize="20sp"
+            android:text="@string/saludo_vendedor" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/txt_celular"
@@ -56,7 +56,7 @@
             >
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/txt_cel_i"
+                android:id="@+id/txt_cel_v"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColorHint="@color/white"
@@ -79,7 +79,7 @@
             app:passwordToggleEnabled="true"
             app:passwordToggleTint="@color/black">
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/txt_psw_i"
+                android:id="@+id/txt_psw_v"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
@@ -87,11 +87,11 @@
                 android:autofillHints="@string/data_contrasena"
                 android:hint="@string/data_contrasena"
                 android:inputType="textPassword"
-                 />
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <RadioButton
-            android:id="@+id/RBSesion"
+            android:id="@+id/RBSesion_v"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -103,7 +103,7 @@
             android:textSize="13sp" />
 
         <Button
-            android:id="@+id/btn_login_start"
+            android:id="@+id/btn_login_v"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="70dp"
@@ -114,6 +114,7 @@
             android:layout_marginBottom="15dp"
             android:text="@string/iniciar_sesion" />
 
+        <!--
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -140,6 +141,8 @@
                 android:textColor="#FFFFFC"
                 android:text="@string/crear_cuenta" />
 
-        </LinearLayout>
+           </LinearLayout>
+        -->
+
     </LinearLayout>
 </RelativeLayout>

@@ -60,7 +60,7 @@ public class CantProductoFragment2 extends DialogFragment {
                             Iterator<Compra> nombreIterator = compras.iterator();
                             while(nombreIterator.hasNext()){
                                 Compra elemento = nombreIterator.next();
-                                Log.d("PedidoAgregado", elemento.toString()+" / " );
+                                Log.d("Pedido Agregado", elemento.toString()+" / " );
                             }
                             Toast.makeText(getActivity(), "Se agregó "+ cantidad[0] + " unidades de " +nombreProducto, Toast.LENGTH_SHORT).show();
                         }else{

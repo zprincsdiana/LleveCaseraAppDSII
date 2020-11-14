@@ -34,12 +34,13 @@
             android:gravity="center"
             android:layout_marginRight="30dp"
             android:layout_marginLeft="30dp"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="20dp"
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textColor="#FFFFFC"
             android:textSize="18sp"
             android:text="@string/intro_text" />
+
 
         <Button
             android:id="@+id/btn_login"
@@ -64,6 +65,18 @@
             android:textColor="@color/text_color_1"
             android:layout_marginBottom="30dp"
             android:text="@string/registrarse" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="italic"
+            android:textColor="#FFFFFC"
+            android:textSize="15sp"
+            android:text="@string/main_vendedor" />
     </LinearLayout>
 
 </RelativeLayout>

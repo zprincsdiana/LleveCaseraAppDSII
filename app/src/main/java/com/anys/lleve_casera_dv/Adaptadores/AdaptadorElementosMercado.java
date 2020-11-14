@@ -120,7 +120,7 @@ public class AdaptadorElementosMercado extends RecyclerView.Adapter<AdaptadorEle
     @Override
     public void onBindViewHolder(@NonNull AdaptadorElementosMercado.ViewHolder holder, int position) {
         String nomImg = elementosMercados.get(position).getProducto();
-        String url = "https://smipmec.000webhostapp.com/Proyecto/LleveCasera/recursos/img/producto/"+nomImg+".jpg";
+        String url = "https://llevecaseraappweb.000webhostapp.com/Proyecto/LleveCasera/recursos/img/producto/"+nomImg+".jpg";
         holder.nombreElemMerc.setText(elementosMercados.get(position).getProducto());
         holder.precioElemMerc.setText(elementosMercados.get(position).getPrecio()+"");
         Picasso.get()

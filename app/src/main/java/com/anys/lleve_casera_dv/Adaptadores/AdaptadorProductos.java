@@ -135,7 +135,7 @@ public class AdaptadorProductos extends RecyclerView.Adapter<AdaptadorProductos.
     @Override
     public void onBindViewHolder(@NonNull AdaptadorProductos.ViewHolder holder, int position) {
         String nomImg = productos.get(position).getNombreProducto();
-        String url = "https://smipmec.000webhostapp.com/Proyecto/LleveCasera/recursos/img/producto/"+nomImg+".jpg";
+        String url = "https://llevecaseraappweb.000webhostapp.com/Proyecto/LleveCasera/recursos/img/producto/"+nomImg+".jpg";
         holder.nombreproducto.setText(productos.get(position).getNombreProducto());
         holder.precioproducto.setText(productos.get(position).getPrecioProductoM());
         holder.mercadoproducto.setText(productos.get(position).getNombreMercado());

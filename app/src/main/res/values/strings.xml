@@ -87,4 +87,24 @@
     <string name="tit_crealizada">¡Compra exitosa!</string>
     <string name="mensaje_crealiada">En breve se comunicará el personal de la agencia para \n más información</string>
 
+    <!-- Modulo Vendedor -->
+
+    <!-- Login -->
+    <string name="main_vendedor">¿Eres vendedor?, Ingresa aquí</string>
+    <string name="saludo_vendedor">¡Bienvenid@!</string>
+
+    <!-- Registro  -->
+    <string name="iniciar_sesion_v">Iniciar Sesión</string>
+    <string name="registrarse_v">Registrarse</string>
+    <string name="data_celular_v">Celular</string>
+    <string name="data_contrasena_v">Contraseña</string>
+    <string name="crear_cuenta_v">Crear cuenta</string>
+    <string name="data_nombre_v">Nombre</string>
+    <string name="data_apellido_v">Apellido</string>
+    <string name="data_correo_v">Correo</string>
+    <string name="back_v">Regresar</string>
+
+
+
+
 </resources>

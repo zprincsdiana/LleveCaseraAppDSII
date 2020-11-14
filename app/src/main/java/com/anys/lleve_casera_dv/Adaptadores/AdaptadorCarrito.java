@@ -141,7 +141,7 @@ public class AdaptadorCarrito extends RecyclerView.Adapter<AdaptadorCarrito.View
         double precioTotal= precioTotal(cantidad,precio);
 
         String nomImg = pedidos.get(position).getNombrePrducto();
-        String url = "https://smipmec.000webhostapp.com/Proyecto/LleveCasera/recursos/img/producto/"+nomImg+".jpg";
+        String url = "https://llevecaseraappweb.000webhostapp.com/Proyecto/LleveCasera/recursos/img/producto/"+nomImg+".jpg";
         holder.nombrePedidoCarrito.setText(pedidos.get(position).getNombrePrducto());
         holder.precioPedidoCarrito.setText(pedidos.get(position).getPrecioProducto()+"");
         holder.cantidadPedidos.setText(pedidos.get(position).getCantidadProducto()+"");

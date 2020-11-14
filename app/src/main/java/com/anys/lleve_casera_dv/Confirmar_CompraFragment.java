@@ -36,6 +36,7 @@ public class Confirmar_CompraFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getContext(),"Se está procesando su solicitud",Toast.LENGTH_LONG).show();
+
             }
         });
         bt_agencia.setOnClickListener(new View.OnClickListener() {
