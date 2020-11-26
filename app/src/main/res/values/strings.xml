@@ -90,7 +90,8 @@
     <!-- Modulo Vendedor -->
 
     <!-- Login -->
-    <string name="main_vendedor">¿Eres vendedor?, Ingresa aquí</string>
+    <string name="main_vendedor">¿Eres vendedor?</string>
+    <string name="log_vendedor">Ingresa aquí</string>
     <string name="saludo_vendedor">¡Bienvenid@!</string>
 
     <!-- Registro  -->
@@ -103,8 +104,6 @@
     <string name="data_apellido_v">Apellido</string>
     <string name="data_correo_v">Correo</string>
     <string name="back_v">Regresar</string>
-
-
 
 
 </resources>

@@ -65,18 +65,34 @@
             android:textColor="@color/text_color_1"
             android:layout_marginBottom="30dp"
             android:text="@string/registrarse" />
-        <TextView
+
+        <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginBottom="10dp"
-            android:fontFamily="sans-serif"
-            android:textStyle="italic"
-            android:textColor="#FFFFFC"
-            android:textSize="15sp"
-            android:text="@string/main_vendedor" />
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textStyle="italic"
+                android:textColor="#FFFFFC"
+                android:textSize="16sp"
+                android:text="@string/main_vendedor" />
+
+            <Button
+                android:id="@+id/btn_ing_v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@android:color/transparent"
+                android:textColor="#FFFFFC"
+                android:text="@string/log_vendedor" />
+
+        </LinearLayout>
     </LinearLayout>
 
 </RelativeLayout>

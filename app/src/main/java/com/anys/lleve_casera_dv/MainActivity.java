@@ -10,7 +10,7 @@ import android.widget.RadioButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn_singin, btn_login;
+    Button btn_singin, btn_login, btn_ingresa_vendedor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +37,17 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+
+        btn_ingresa_vendedor =findViewById(R.id.btn_ing_v);
+        btn_ingresa_vendedor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, LoginMercado.class));
+                finish();
+            }
+        });
+
 
     }
 

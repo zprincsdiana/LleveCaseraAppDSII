@@ -73,11 +73,6 @@
         android:name="com.anys.lleve_casera_dv.LoginActivity"
         android:label="activity_login"
         tools:layout="@layout/activity_login" />
-    <fragment
-        android:id="@+id/loginMercadoActivity"
-        android:name="com.anys.lleve_casera_dv.loginMercadoActivity"
-        android:label="fragment_login_mercado_activity"
-        tools:layout="@layout/fragment_login_mercado_activity" />
     <activity
         android:id="@+id/singInActivity"
         android:name="com.anys.lleve_casera_dv.SingInActivity"
@@ -88,6 +83,11 @@
         android:name="com.anys.lleve_casera_dv.singInActivity_vendedor"
         android:label="fragment_sing_in_activity_vendedor"
         tools:layout="@layout/fragment_sing_in_activity_vendedor" />
+    <activity
+        android:id="@+id/loginMercado"
+        android:name="com.anys.lleve_casera_dv.LoginMercado"
+        android:label="activity_login_mercado"
+        tools:layout="@layout/activity_login_mercado" />
 
 
 </navigation>
